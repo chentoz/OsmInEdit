@@ -135,7 +135,7 @@ class ImageryPane extends Component {
 							<Form.Label>{I18n.t("Custom imagery URL")}</Form.Label>
 							<Form.Control
 								type="text"
-								placeholder="https://mytil.es/{z}/{x}/{y}.jpg"
+								placeholder="http://localhost/{z}/{x}/{y}.png"
 								value={this.state.customUrl}
 								onChange={v => this._onCustomChanged(v.target.value)}
 							/>

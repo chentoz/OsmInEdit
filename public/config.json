@@ -3,12 +3,12 @@
 	"hash": "GIT_HASH",
 	"data_min_zoom": 18,
 	"map_initial_zoom": 18,
-	"map_initial_latlng": [48.13678, -1.69533],
+	"map_initial_latlng": [31.689821, 119.957258],
 	"providers": {
 		"bing": "AhsSQakuHuX3ozMBXC60w-hPk0KD_smZZbHLjb7mBFfeIwDKJnJn2_qK3qQfYfPZ"
 	},
-	"osm_api_url": "https://master.apis.dev.openstreetmap.org",
-	"oauth_consumer_key": "S1UcyQKeyEpa4fzoJhbffi5vCMELM2KrPoZUicag",
-	"oauth_secret": "xjFttL8ano8nnj6zYK7QxyjQ1NI8HK8TnlTqhUVf",
+	"osm_api_url": "http://192.168.31.131:3000",
+	"oauth_consumer_key": "4bXQKWXiI8DtnlvLkZtTJh8NTXP8kbRfAVjiS7mG",
+	"oauth_secret": "2pKz4ZqxL8K5l6AoqoXtA7uZVEzMlGpbqXpeHoez",
 	"always_authenticated": false
 }
