@@ -4,7 +4,7 @@
   "description": "Web tool for editing OpenStreetMap building indoors data",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=31304 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "doc": "npm run doc:js:check && npm run doc:js",
