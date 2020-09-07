@@ -7,7 +7,7 @@
 	"providers": {
 		"bing": "AhsSQakuHuX3ozMBXC60w-hPk0KD_smZZbHLjb7mBFfeIwDKJnJn2_qK3qQfYfPZ"
 	},
-	"osm_api_url": "http://chentoz:31304",
+	"osm_api_url": "http://spim:31304",
 	"oauth_consumer_key": "4bXQKWXiI8DtnlvLkZtTJh8NTXP8kbRfAVjiS7mG",
 	"oauth_secret": "2pKz4ZqxL8K5l6AoqoXtA7uZVEzMlGpbqXpeHoez",
 	"always_authenticated": false
