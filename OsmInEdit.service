@@ -1,0 +1,18 @@
+[Unit]
+Description=OsmInEdit
+
+[Service]
+WorkingDirectory=/home/osm/src/OsmInEdit
+ExecStart=/usr/bin/bash -lc 'sudo npm start'
+
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=OsmInEdit
+#User=<alternate user>
+#Group=<alternate group>
+#Environment=NODE_ENV=production PORT=1337
+
+[Install]
+WantedBy=multi-user.target
