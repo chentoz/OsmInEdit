@@ -2,14 +2,16 @@
 Description=OsmInEdit
 
 [Service]
-WorkingDirectory=/home/osm/src/OsmInEdit
-ExecStart=/usr/bin/bash -lc 'sudo npm start'
+WorkingDirectory=/home/spim/src/OsmInEdit
+ExecStart=/bin/bash -lc 'npm start'
 
 Restart=always
 RestartSec=10
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=OsmInEdit
+User=root
+Group=root
 #User=<alternate user>
 #Group=<alternate group>
 #Environment=NODE_ENV=production PORT=1337
